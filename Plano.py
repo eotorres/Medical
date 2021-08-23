@@ -31,7 +31,7 @@ saida = predict_model(modelo, dados)
 
 st.write(dados)
 
-if st.button('APLICAR O MODELO'):
-	pred = float(saida['Label'].round(2)) 
-	s1 = 'Custo Estimado do Seguro: ${:.2f}'.format(pred) 
-	st.markdown('### **' + s1 + '**')  
+#if st.button('APLICAR O MODELO'):
+#	pred = float(saida['Label'].round(2)) 
+#	s1 = 'Custo Estimado do Seguro: ${:.2f}'.format(pred) 
+#	st.markdown('### **' + s1 + '**')  
