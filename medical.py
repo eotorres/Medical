@@ -131,9 +131,9 @@ elif pagina == 'Detectar probabilidade de fraude':
 		st.markdown('## **' + s + '**') 
 
 		if resp == 'NÃO':
-			st.success('Tá tranquilo!')
+			st.success('Probabilidade Baixa de Fraude!')
 		elif prob < 0.7:
-			st.warning('Probabilidade Moderada de Fraude')
+			st.warning('Probabilidade Moderada de Fraude!')
 		else:
 			st.error('Probabilidade Alta de Fraude!')
 	
