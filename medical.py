@@ -100,11 +100,11 @@ elif pagina == 'Modelagem de valor do seguro':
 		saida = classificador(modelo1, dados)
 		pred = float(saida['Label'].round(2))
 		valor = round(1.8*pred, 2)
-		x = 1.8
+		variavel = round(1.8,2)
 
 		s1 = 'Custo Estimado do Seguro (Pred): ${:.2f}'.format(pred)
 		s2 = 'Valor de Venda do Seguro: ${:.2f}'.format(valor)
-		s3 = 'Calculo:'.format(x)
+		s3 = 'Calculo: ${:.2f}'.format(variavel)
 		
 		
 		st.markdown('## Resultados do modelo para as entradas:')
