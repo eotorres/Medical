@@ -104,7 +104,7 @@ elif pagina == 'Modelagem de valor do seguro':
 
 		s1 = 'Custo Estimado do Seguro (Pred): ${:.2f}'.format(pred)
 		s2 = 'Valor de Venda do Seguro: ${:.2f}'.format(valor)
-		s3 = 'Calculo realizado : ${:.2f}'.format(1.8,pred)
+		s3 = 'Calculo realizado: ${:.2f}'.format(1.8*,pred)
 		
 		st.markdown('## Resultados do modelo para as entradas:')
 		st.write(dados)
