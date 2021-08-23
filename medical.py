@@ -100,17 +100,17 @@ elif pagina == 'Modelagem de valor do seguro':
 		saida = classificador(modelo1, dados)
 		pred = float(saida['Label'].round(2))
 		valor = round(1.8*pred, 2)
-		x = round(1.8,2)
+		x = 1.8
 
 		s1 = 'Custo Estimado do Seguro (Pred): ${:.2f}'.format(pred)
 		s2 = 'Valor de Venda do Seguro: ${:.2f}'.format(valor)
-		s3 = 'Calculo realizado: ${:.2f}'.format(1.8*,pred)
+		
 		
 		st.markdown('## Resultados do modelo para as entradas:')
 		st.write(dados)
 		st.markdown('## **' + s1 + '**') 
 		st.markdown('## **' + s2 + '**')
-		st.markdown('## **' + s3 + '**')
+		sst.markdown = 'Calculo Realizado' + x + ','*',' + s1 + '
 
 ###### PAGINA: MODELO DE FRAUDE ######
 
@@ -129,8 +129,7 @@ elif pagina == 'Detectar probabilidade de fraude':
 	imc = st.number_input('Índice de Massa Corporal', 15, 54, 24)
 	criancas = st.selectbox("Quantidade de filhos", [0, 1, 2, 3, 4, 5])
 	#fumante = st.selectbox("É fumante?", ['Sim', 'Não'])
-	regiao = st.selectbox("Região em que mora", 
-								  ['Sudeste', 'Noroeste', 'Sudoeste', 'Nordeste'])
+	regiao = st.selectbox("Região em que mora", ['Sudeste', 'Noroeste', 'Sudoeste', 'Nordeste'])
 
 	custos = st.number_input('Custos da pessoa', 1000, 64000, 10000)
  
