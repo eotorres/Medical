@@ -29,7 +29,7 @@ def fmap(x):
 	y = 'yes' if x == 'Sim' else 'no' 
 	return y
 
-st.sidebar.header('**Medical Cost**') 
+st.sidebar.header('**Custo Médio**') 
 
 opcoes = ['Página Inicial', 
 		  'Modelagem de valor do seguro', 
@@ -46,10 +46,26 @@ st.sidebar.markdown('---')
 if pagina == 'Página Inicial':
 	
 	st.write("""
-	# Bem-vindo ao Medical Cost  
+	# Bem-vindo ao Medical Cost (Custo Médio)
 
 	Nesse Web App podemos utilizar em produção os modelos desenvolvidos tanto para
 	precificar novos seguros, quanto para buscar por fraudadores do seguro.
+	
+	A lista abaixo ilustra o que está implementado até o momento. 
+	### Funcionalidades no momento
+	- [x]  Página Inicial 
+	- [x]  Modelo em produção para precificar planos de saúde em novos clientes
+	- [x]  Modelo em produção para detectar possíveis fraudadores 
+
+	Os modelos desse web-app foram desenvolvidos utilizando o conjunto de 
+	dados que pode ser encontrado nesse [link do kaggle](https://www.kaggle.com/mirichoi0218/insurance).
+	
+	O referencial sobre os modelos utilizados você pode encontrar nesse [link](https://github.com/eotorres/Medical).
+	Foi realizado dois tipos de analises para a construção final da previsão
+	Os modelos são desenvolvidos e analisados utilizando a biblioteca [PyCaret](https://pycaret.org/).
+	
+	Para mais informações sobre o Streamlit, consulte o [site oficial](https://www.streamlit.io/) ou a sua [documentação](https://docs.streamlit.io/_/downloads/en/latest/pdf/).
+	[Lista de emojis para markdown](https://gist.github.com/rxaviers/7360908).
         	""")
 
 ###### PAGINA: MODELO DE COTACAO DO SEGURO ######
