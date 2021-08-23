@@ -60,9 +60,10 @@ if pagina == 'Página Inicial':
 	Os modelos desse web-app foram desenvolvidos utilizando o conjunto de 
 	dados que pode ser encontrado nesse [link do kaggle](https://www.kaggle.com/mirichoi0218/insurance).
 	
-	O referencial sobre os modelos utilizados você pode encontrar nesse [link](https://github.com/eotorres/Medical).
-	Foi realizado dois tipos de analises para a construção final da previsão
-	Os modelos são desenvolvidos e analisados utilizando a biblioteca [PyCaret](https://pycaret.org/).
+	- O referencial sobre os modelos utilizados você pode encontrar nesse [link](https://github.com/eotorres/Medical).
+	- Foi realizado dois tipos de analises para a construção final da previsão
+	
+	- Os modelos são desenvolvidos e analisados utilizando a biblioteca [PyCaret](https://pycaret.org/).
 	
 	Para mais informações sobre o Streamlit, consulte o [site oficial](https://www.streamlit.io/) 
 	ou a sua [documentação](https://docs.streamlit.io/_/downloads/en/latest/pdf/).
