@@ -64,8 +64,9 @@ if pagina == 'Página Inicial':
 	Foi realizado dois tipos de analises para a construção final da previsão
 	Os modelos são desenvolvidos e analisados utilizando a biblioteca [PyCaret](https://pycaret.org/).
 	
-	Para mais informações sobre o Streamlit, consulte o [site oficial](https://www.streamlit.io/) ou a sua [documentação](https://docs.streamlit.io/_/downloads/en/latest/pdf/).
-	[Lista de emojis para markdown](https://gist.github.com/rxaviers/7360908).
+	Para mais informações sobre o Streamlit, consulte o [site oficial](https://www.streamlit.io/) 
+	ou a sua [documentação](https://docs.streamlit.io/_/downloads/en/latest/pdf/).
+	
         	""")
 
 ###### PAGINA: MODELO DE COTACAO DO SEGURO ######
