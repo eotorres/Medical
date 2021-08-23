@@ -108,7 +108,7 @@ elif pagina == 'Modelagem de valor do seguro':
 		st.write(dados)
 		st.markdown('## **' + s1 + '**') 
 		st.markdown('## **' + s2 + '**')
-		st.markdown('## **' + Calculo Realizado : 1.8* +'**' + s1 )
+		st.markdown('## **' + Calculo Realizado : 1.8* +'**' + s1' )
 
 ###### PAGINA: MODELO DE FRAUDE ######
 
