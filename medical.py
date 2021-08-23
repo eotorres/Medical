@@ -103,11 +103,12 @@ elif pagina == 'Modelagem de valor do seguro':
 
 		s1 = 'Custo Estimado do Seguro: ${:.2f}'.format(pred)
 		s2 = 'Valor de Venda do Seguro: ${:.2f}'.format(valor)
-
+		
 		st.markdown('## Resultados do modelo para as entradas:')
 		st.write(dados)
 		st.markdown('## **' + s1 + '**') 
-		st.markdown('## **' + s2 + '**')  
+		st.markdown('## **' + s2 + '**')
+		st.markdown('## **' + Calculo Realizado : 1.8* +'**' + s1 )
 
 ###### PAGINA: MODELO DE FRAUDE ######
 
